@@ -16,7 +16,7 @@ parameters:
   - name: acrName
     displayName: Azure Container Registry name (without azurecr.io)
     type: string
-    default: codexuniversal
+    default: k8scontainer
   - name: imageRepository
     displayName: Container image repository
     type: string

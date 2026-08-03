@@ -23,7 +23,7 @@ commit tag, a branch tag, and `latest` for `main`.
 3. Select `/azure-pipelines.yml`.
 4. Set the runtime parameters:
    - `azureServiceConnection`: the Azure DevOps service connection name.
-   - `acrName`: the registry resource name without `.azurecr.io`.
+   - `acrName`: defaults to the existing `k8scontainer.azurecr.io` registry.
    - `imageRepository`: defaults to `codex-universal`.
    - `armAgentPool`: the ARM64 self-hosted agent pool name; defaults to
      `codex-universal-arm64`.
